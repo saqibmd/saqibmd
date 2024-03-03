@@ -1,0 +1,147 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: work sans;
+}
+
+html,body{
+  width: 100%;
+  height: 100%;
+}
+
+#main{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  padding: 0px 90px;
+  padding-top: 150px;
+  gap: 70px;
+}
+
+#left{
+  height: 100%;
+  width: 45%;
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 40px;
+}
+
+#left h1{
+  font-size: 100px;
+  font-weight: 500;
+  font-family: work sans;
+}
+
+#bottom-left{
+  width: 100%;
+  height: 40%;
+  /* background-color: lightcoral;   */
+}
+
+#color{
+  padding: 8px 10px;
+  width: fit-content;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  border: 1px solid black;
+}
+
+#color h5{
+  font-weight: 500;
+  font-size: 15px;
+  margin-right: 10px;
+
+}
+
+#color1{
+  width: 20px;
+  height: 20px;
+  background-color: lightseagreen;
+  border-radius: 50%;
+  margin: 3px;
+}
+
+#color2{
+  width: 20px;
+  height: 20px;
+  background-color: lightcoral;
+  border-radius: 50%;
+}
+
+#left h2{
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+/* ------------------------------------------------------------------------------------------- */
+
+/* right section */
+
+#right{
+  height: 90%;
+  width: 35%;
+  /* background-color: aquamarine; */
+  position: relative;
+}
+
+#top-right{
+  /* background-color: red; */
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+#top-right h4{
+  font-family: work sans;
+  font-size: 20px;
+}
+
+#top-right{
+  font-weight: 600;
+}
+
+#top-right h5 i{
+  color: gold;
+}
+
+#right img{
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+}
+
+#black-button{
+  position: absolute;
+  height: 120px;
+  width: 120px;
+  background-color: rgb(2, 2, 3);
+  color: white;
+  border-radius: 50%;
+  right: -12%;
+  top: 22%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#black-button{
+  font-size: 20px;
+}
+
+#rotate{
+  position: absolute;
+  font-size: 25px;
+  left: -10%;
+  bottom: 4%;
+  rotate: -90deg;
+  transform-origin: 0 0;
+}
